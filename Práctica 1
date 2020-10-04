@@ -1,0 +1,10 @@
+echo introduce la api key
+read API_KEY
+
+curl "https://api.openweathermap.org/data/2.5/weather?q=London&appid=" + {API_KEY} | \
+    grep "^    \"url\"" |cut -d "\"" -f 4 | head -n 1 |  xargs -I % curl "%"
+curl "https://api.openweathermap.org/data/2.5/weather?id=2172797&appid=" + {API_KEY} | \
+    grep "^    \"url\"" |cut -d "\"" -f 4 | head -n 1 |  xargs -I % curl "%"	
+curl "https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=" + {API_KEY} | \
+    grep "^    \"url\"" |cut -d "\"" -f 4 | head -n 1 |  xargs -I % curl "%"	
+curl -u "${API_KEY}:${API_PSS}"
