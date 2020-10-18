@@ -1,0 +1,49 @@
+function Show-Menu 
+{ 
+     param ( 
+           [string]$Titulo = 'Opciones del Menu') 
+     cls 
+     Write-Host "================ $Titulo================" 
+      
+     
+     Write-Host "1) Buscar en la web" 
+     Write-Host "2) Descargar imagenes de la web" 
+     Write-Host "S) Presiona 'S' para salir" 
+}
+
+function Search-InWeb {
+    $URL = "http://www.google.com/search?q="
+    $URL+= Read-Host  "Ingresa lo que quieras buscar"
+    $URL += "&newwindow=1&sxsrf=ALeKk018FPFMxZboiMrYnc87ujuvtNxy5w:1602968329378&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiM_u6uwrzsAhUbXc0KHTXrC_cQ_AUoAXoECAYQAw&biw=1536&bih=731"
+    Start $URL
+}
+
+function Search-Cuentos{
+    $URL = "https://cuentosinfantiles.top/cuentos-infantiles-pdf/"
+    Start $URL
+    $LinkPDF = Read-Host "Ingresa aquí el enlace del PDF que quieras descargar"
+    $Ruta = Read-Host "Ingresa la ruta en donde se descargará el archivo (ejemplo: C:\Users\Usuario\Escritorio)"
+    $PDF = "Nombre que le darás al archivo"
+    $client = new-object System.Net.WebClient
+    $client.DownloadFile(“$LinkPDF", "$Ruta.pdf”)
+}
+
+
+do
+{     Show-Menu 
+     $input = Read-Host "Elegir una Opción " 
+     switch ($input) 
+     { 
+           '1' { 
+                cls 
+                Search-InWeb
+           } '2' { 
+                cls
+                Search-Cuentos
+           } 's' { 
+                return 
+           }  
+     } 
+     pause 
+}
+until ($input -eq 's')
