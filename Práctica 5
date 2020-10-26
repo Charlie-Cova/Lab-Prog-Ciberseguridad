@@ -1,0 +1,54 @@
+#!/bin/bash
+
+echo "Bienvenido, para codificar archivos pulse la tecla 1, para decodificar archivos pulse la tecla 2, después oprima [enter],
+para cerrar oprima 0"
+read contador
+while [ $contador -ne 0 ];
+do
+    
+    while [ $contador -eq 1 ];
+    do
+    echo 'Usted ha elegido codificar archivos '
+    cd --
+
+    echo 'Escribe la ruta del directorio donde se encuentran los archivos a codificar'
+    read ruta
+    echo 'Escribe el nombre del archivo original'
+    read nam_arch
+    echo 'Escribe el nombre que se le dará al archivo codificado'
+    read cod_nam_arch
+
+    cd $ruta
+    base64 < $nam_arch > $cod_nam_arch
+    echo 'El checksum de los archivos es:'
+    md5sum $nam_arch $cod_nam_arch
+      
+    echo 'Si quiere que el programa se repita introduzca 1 para codificar y 2 para decodificar archivos, después pulse la tecla [enter],
+    de lo contrario introduzca 0'
+    read contador
+    done
+
+    while [ $contador -eq 2 ];
+    do 
+    echo 'Usted ha elegido decodificar archivos '
+    cd --
+
+    echo 'Escribe la ruta del directorio donde se encuentran los archivos a decodificar'
+    read ruta2
+    echo 'Escribe el nombre del archivo original'
+    read nam_arch2
+    echo 'Escribe el nombre que se le dará al archivo decodificado'
+    read cod_nam_arch2
+
+    cd $ruta2
+    base64 --decode < $nam_arch2 > $cod_nam_arch2
+    echo 'El checksum de los archivos es:'
+    md5sum $nam_arch2 $cod_nam_arch2
+      
+    echo 'Si quiere que el programa se repita introduzca 1 para codificar y 2 para decodificar archivos, después pulse la tecla [enter],
+    de lo contrario introduzca 0'
+    read contador
+    done
+
+done
+echo 'Este programa se cerrará'
