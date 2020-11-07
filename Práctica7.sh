@@ -7,4 +7,4 @@ nmap --script default,vuln "introduce_tu_ip_pública" >> práctica7.txt
 base64 práctica7.txt > práctica7-encoded.txt
 
 
-rm práctica7.txt
+#rm práctica7.txt
