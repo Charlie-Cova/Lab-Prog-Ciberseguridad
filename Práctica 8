@@ -1,0 +1,830 @@
+
+Configuraci¢n IP de Windows
+
+    ocsp.sectigo.com
+    ----------------------------------------
+    Nombre de registro  . : ocsp.sectigo.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 317
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 151.139.128.14
+
+
+    Nombre de registro  . : ns1.as48447.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 317
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 91.199.212.50
+
+
+    Nombre de registro  . : ns2.as48447.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 317
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 91.209.196.50
+
+
+    Nombre de registro  . : ns3.as48447.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 317
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 91.212.12.50
+
+
+    Nombre de registro  . : ns1.as48447.net
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 317
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2a0e:ac00:c7:d432::5bc7:d432
+
+
+    Nombre de registro  . : ns2.as48447.net
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 317
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2a0e:ac00:d1:c432::5bd1:c432
+
+
+    Nombre de registro  . : ns3.as48447.net
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 317
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2a0e:ac00:d4:c32::5bd4:c32
+
+
+    fp-vs-nocache.azureedge.net
+    ----------------------------------------
+    Nombre de registro  . : fp-vs-nocache.azureedge.net
+    Tipo de registro  . . : 5
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro CNAME. . . . : fp-vs-nocache.ec.azureedge.net
+
+
+    Nombre de registro  . : fp-vs-nocache.ec.azureedge.net
+    Tipo de registro  . . : 5
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro CNAME. . . . : cs9.wpc.v0cdn.net
+
+
+    Nombre de registro  . : cs9.wpc.v0cdn.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 72.21.81.200
+
+
+    Nombre de registro  . : ns3.v0cdn.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 192.229.254.5
+
+
+    Nombre de registro  . : ns2.v0cdn.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 72.21.80.6
+
+
+    Nombre de registro  . : ns4.v0cdn.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 192.229.254.6
+
+
+    Nombre de registro  . : ns1.v0cdn.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 72.21.80.5
+
+
+    Nombre de registro  . : ns3.v0cdn.net
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2606:2800:e::5
+
+
+    Nombre de registro  . : ns2.v0cdn.net
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2606:2800:1::6
+
+
+    Nombre de registro  . : ns4.v0cdn.net
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2606:2800:e::6
+
+
+    Nombre de registro  . : ns1.v0cdn.net
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 801
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2606:2800:1::5
+
+
+    dsp.adfarm1.adition.com
+    ----------------------------------------
+    Nombre de registro  . : dsp.adfarm1.adition.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 380
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 85.114.159.93
+
+
+    Nombre de registro  . : dsp.adfarm1.adition.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 380
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 85.114.159.118
+
+
+    Nombre de registro  . : ns1.anyns.de
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 380
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 162.159.24.4
+
+
+    Nombre de registro  . : ns2.anyns.de
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 380
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 162.159.25.4
+
+
+    Nombre de registro  . : ns3.anyns.de
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 380
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 162.159.26.4
+
+
+    Nombre de registro  . : ns4.anyns.de
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 380
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 162.159.27.4
+
+
+    Nombre de registro  . : ns1.anyns.de
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 380
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2400:cb00:2049:1::a29f:1804
+
+
+    Nombre de registro  . : ns2.anyns.de
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 380
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2400:cb00:2049:1::a29f:1904
+
+
+    Nombre de registro  . : ns3.anyns.de
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 380
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2400:cb00:2049:1::a29f:1a04
+
+
+    Nombre de registro  . : ns4.anyns.de
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 380
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2400:cb00:2049:1::a29f:1b04
+
+
+    www.google.com
+    ----------------------------------------
+    Nombre de registro  . : www.google.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 113
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 216.58.193.132
+
+
+    Nombre de registro  . : ns1.google.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 113
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 216.239.32.10
+
+
+    Nombre de registro  . : ns4.google.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 113
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 216.239.38.10
+
+
+    Nombre de registro  . : ns3.google.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 113
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 216.239.36.10
+
+
+    Nombre de registro  . : ns2.google.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 113
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 216.239.34.10
+
+
+    Nombre de registro  . : ns1.google.com
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 113
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2001:4860:4802:32::a
+
+
+    Nombre de registro  . : ns4.google.com
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 113
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2001:4860:4802:38::a
+
+
+    Nombre de registro  . : ns3.google.com
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 113
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2001:4860:4802:36::a
+
+
+    Nombre de registro  . : ns2.google.com
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 113
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2001:4860:4802:34::a
+
+
+    pippio.com
+    ----------------------------------------
+    Nombre de registro  . : pippio.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 9362
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 107.178.254.65
+
+
+    Nombre de registro  . : ns-1316.awsdns-36.org
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 9362
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 205.251.197.36
+
+
+    Nombre de registro  . : ns-1800.awsdns-33.co.uk
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 9362
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 205.251.199.8
+
+
+    Nombre de registro  . : ns-24.awsdns-03.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 9362
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 205.251.192.24
+
+
+    Nombre de registro  . : ns-537.awsdns-03.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 9362
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 205.251.194.25
+
+
+    Nombre de registro  . : ns-1316.awsdns-36.org
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 9362
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2600:9000:5305:2400::1
+
+
+    Nombre de registro  . : ns-1800.awsdns-33.co.uk
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 9362
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2600:9000:5307:800::1
+
+
+    Nombre de registro  . : ns-24.awsdns-03.com
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 9362
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2600:9000:5300:1800::1
+
+
+    Nombre de registro  . : ns-537.awsdns-03.net
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 9362
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2600:9000:5302:1900::1
+
+
+    arc.msn.com
+    ----------------------------------------
+    Nombre de registro  . : arc.msn.com
+    Tipo de registro  . . : 5
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro CNAME. . . . : arc.msn.com.nsatc.net
+
+
+    Nombre de registro  . : arc.msn.com.nsatc.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 52.184.215.140
+
+
+    Nombre de registro  . : latam-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 192.221.252.145
+
+
+    Nombre de registro  . : latam-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 146.82.224.215
+
+
+    Nombre de registro  . : latam-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 192.221.249.145
+
+
+    Nombre de registro  . : usa-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 8.26.197.27
+
+
+    Nombre de registro  . : usa-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 205.128.88.25
+
+
+    Nombre de registro  . : usa-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 8.26.193.153
+
+
+    Nombre de registro  . : usa-b.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 8.27.226.155
+
+
+    Nombre de registro  . : usa-b.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 8.27.235.155
+
+
+    Nombre de registro  . : usa-b.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 4.27.16.155
+
+
+    Nombre de registro  . : usa-c.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 8.27.81.27
+
+
+    Nombre de registro  . : usa-c.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 198.78.199.155
+
+
+    Nombre de registro  . : usa-c.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 155
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 204.160.105.155
+
+
+    fe2cr.update.microsoft.com
+    ----------------------------------------
+    Nombre de registro  . : fe2cr.update.microsoft.com
+    Tipo de registro  . . : 5
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro CNAME. . . . : fe2cr.update.microsoft.com.akadns.net
+
+
+    Nombre de registro  . : fe2cr.update.microsoft.com.akadns.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 52.250.46.237
+
+
+    Nombre de registro  . : a3-129.akadns.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 96.7.49.129
+
+
+    Nombre de registro  . : a7-131.akadns.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 23.61.199.131
+
+
+    Nombre de registro  . : a11-129.akadns.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 84.53.139.129
+
+
+    Nombre de registro  . : a1-128.akadns.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 193.108.88.128
+
+
+    Nombre de registro  . : a9-128.akadns.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 184.85.248.128
+
+
+    Nombre de registro  . : a5-130.akagtm.org
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 95.100.168.130
+
+
+    Nombre de registro  . : a28-129.akagtm.org
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 95.100.173.129
+
+
+    Nombre de registro  . : a13-130.akagtm.org
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 2.22.230.130
+
+
+    Nombre de registro  . : a18-128.akagtm.org
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 95.101.36.128
+
+
+    Nombre de registro  . : a12-131.akagtm.org
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 112
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 184.26.160.131
+
+
+
+    fe3cr.delivery.mp.microsoft.com
+    ----------------------------------------
+    Nombre de registro  . : fe3cr.delivery.mp.microsoft.com
+    Tipo de registro  . . : 5
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro CNAME. . . . : fe3.delivery.mp.microsoft.com
+
+
+    Nombre de registro  . : fe3.delivery.mp.microsoft.com
+    Tipo de registro  . . : 5
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro CNAME. . . . : fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+
+
+    Nombre de registro  . : fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 111.221.29.40
+
+
+    Nombre de registro  . : latam-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 192.221.252.145
+
+
+    Nombre de registro  . : latam-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 146.82.224.215
+
+
+    Nombre de registro  . : latam-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 192.221.249.145
+
+
+    Nombre de registro  . : usa-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 8.26.197.27
+
+
+    Nombre de registro  . : usa-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 205.128.88.25
+
+
+    Nombre de registro  . : usa-a.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 8.26.193.153
+
+
+    Nombre de registro  . : usa-b.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 8.27.226.155
+
+
+    Nombre de registro  . : usa-b.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 8.27.235.155
+
+
+    Nombre de registro  . : usa-b.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 4.27.16.155
+
+
+    Nombre de registro  . : usa-c.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 8.27.81.27
+
+
+    Nombre de registro  . : usa-c.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 198.78.199.155
+
+
+    Nombre de registro  . : usa-c.prod1.footprint.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 60
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 204.160.105.155
+
+
+    github.githubassets.com
+    ----------------------------------------
+    Nombre de registro  . : github.githubassets.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 185.199.109.154
+
+
+    Nombre de registro  . : github.githubassets.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 185.199.110.154
+
+
+    Nombre de registro  . : github.githubassets.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 185.199.111.154
+
+
+    Nombre de registro  . : github.githubassets.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 185.199.108.154
+
+
+    Nombre de registro  . : ns-597.awsdns-10.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 205.251.194.85
+
+
+    Nombre de registro  . : ns-370.awsdns-46.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 205.251.193.114
+
+
+    Nombre de registro  . : ns-1766.awsdns-28.co.uk
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 205.251.198.230
+
+
+    Nombre de registro  . : ns-1354.awsdns-41.org
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 205.251.197.74
+
+
+    Nombre de registro  . : dns1.p02.nsone.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 198.51.44.2
+
+
+    Nombre de registro  . : dns2.p02.nsone.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 198.51.45.2
+
+
+    Nombre de registro  . : dns3.p02.nsone.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 198.51.44.66
+
+
+    Nombre de registro  . : dns4.p02.nsone.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : adicional
+    Un registro (host). . : 198.51.45.66
+
+
+    Nombre de registro  . : ns-597.awsdns-10.net
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2600:9000:5302:5500::1
+
+
+    Nombre de registro  . : ns-370.awsdns-46.com
+    Tipo de registro  . . : 28
+    Per¡odo de vida . . . : 505
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : adicional
+    Registro AAAA . . . . : 2600:9000:5301:7200::1
+
+
